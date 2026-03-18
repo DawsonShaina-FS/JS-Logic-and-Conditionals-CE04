@@ -1,0 +1,15 @@
+/* Name: Shaina Dawson
+Date: 03/16/2026
+Assignment: CE04: Conditionals */
+
+/* Changing elements in the body */
+body {
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Adjusting h1 and p */
+h1,
+p {
+    color: bisque;
+}
