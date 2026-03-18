@@ -45,22 +45,22 @@ let pumpkinCost;
 if (pumpkinWeight < 0) {
     console.log("You have entered an incorrect weight for your pumpkin, please refresh and try again!")
 }
-else if (pumpkinWeight <= 5.4) {
+else if (pumpkinWeight < 5.5) {
     pumpkinCost = pumpkinWeight * 1.00;
 
     console.log("Your pumpkin of " + pumpkinWeight + " lbs costs $" + pumpkinCost);
 }
-else if (pumpkinWeight >= 5.5 && pumpkinWeight <= 10.74) {
+else if (pumpkinWeight >= 5.5 && pumpkinWeight < 10.75) {
     pumpkinCost = 0.90 * pumpkinWeight;
 
     console.log("Your pumpkin of " + pumpkinWeight + " lbs costs $" + pumpkinCost);
 }
-else if (pumpkinWeight >= 10.75 && pumpkinWeight <= 24.99) {
+else if (pumpkinWeight >= 10.75 && pumpkinWeight < 25) {
     pumpkinCost = 0.80 * pumpkinWeight
 
     console.log("Your pumpkin of " + pumpkinWeight + " lbs costs $" + pumpkinCost);
 }
-else if (pumpkinWeight >= 25 && pumpkinWeight <= 49.99) {
+else if (pumpkinWeight >= 25 && pumpkinWeight < 50) {
     pumpkinCost = 0.70 * pumpkinWeight
     console.log("Your pumpkin of " + pumpkinWeight + " lbs costs $" + pumpkinCost);
 }
